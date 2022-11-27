@@ -2,5 +2,5 @@
 layout: post
 title:  "Exploration via Elliptical Episodic Bonuses"
 redirect_url: "https://e3bagent.github.io/"
-date: 2022-3-3 8:00:00 +0000
+date: 2022-9-14 8:00:00 +0000
 ---
