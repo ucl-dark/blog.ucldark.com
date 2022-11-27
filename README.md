@@ -8,6 +8,16 @@ Just create a new `.markdown` file in the style of the existing files under [`_p
 - `<publication date>` should be of the form `YYYY-MM-DD 8:00:00 +0000` format. Note that the time component does not matter, so as a standard, we will default to `8:00:00 +0000`.
 - `title` should make use of standard title capitalization style (e.g. following APA standards). This means capitalizing all words except for standard conjunctions, prepositions under 4 letters, and proper nouns that take on lowercase by definition. This site will help you automatically follow this convention: [https://capitalizemytitle.com/](https://capitalizemytitle.com/).
 
+## How do I preview my post locally?
+
+You will need to (install jekyll)[https://jekyllrb.com/docs/installation/]. 
+
+🚨🍎🚨 If you use macOS: Note that jekyll uses ruby, but is incompatible with the outdated version of ruby that ships with macOS. [This guide](https://snyk.io/blog/how-to-install-ruby-in-mac-os/) details how you can install the latest ruby and ruby version control tools to enable building jekyll locally.
+
+
+- `cd` into this repo's and run the following: `jekyll serve`. 
+- You can then visit the blog locally at (`localhost:4000`)(http://localhost:4000/). This will build and serve your post, while watching + building whenever you change files. If for some reason changes are not reflected, manually rebuild by issuing the command `jekyll build`.
+
 ## How do I add images and videos to my post?
 
 If your post has static assets like images or video, do the following:
