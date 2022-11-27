@@ -16,7 +16,7 @@ You will need to [install jekyll](https://jekyllrb.com/docs/installation/).
 
 
 - `cd` into this repo's and run the following: `jekyll serve`. 
-- You can then visit the blog locally at (`localhost:4000`)(http://localhost:4000/). This will build and serve your post, while watching + building whenever you change files. If for some reason changes are not reflected, manually rebuild by issuing the command `jekyll build`.
+- You can then visit the blog locally at [`localhost:4000`](http://localhost:4000/). This will build and serve your post, while watching + building whenever you change files. If for some reason changes are not reflected, manually rebuild by issuing the command `jekyll build`.
 
 ## How do I add images and videos to my post?
 
