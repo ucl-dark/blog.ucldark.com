@@ -10,7 +10,7 @@ Just create a new `.markdown` file in the style of the existing files under [`_p
 
 ## How do I preview my post locally?
 
-You will need to (install jekyll)[https://jekyllrb.com/docs/installation/]. 
+You will need to [install jekyll](https://jekyllrb.com/docs/installation/). 
 
 🚨🍎🚨 If you use macOS: Note that jekyll uses ruby, but is incompatible with the outdated version of ruby that ships with macOS. [This guide](https://snyk.io/blog/how-to-install-ruby-in-mac-os/) details how you can install the latest ruby and ruby version control tools to enable building jekyll locally.
 
