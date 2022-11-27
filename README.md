@@ -2,7 +2,8 @@
 
 ## How do I add a post to the blog?
 
-It's really easy! Just create a new `.markdown` file in the style of the existing files under [`_posts`](https://github.com/ucl-dark/blog.ucldark.com/tree/master/_posts). Your post should be written in standard markdown in this file. Make sure that `layout: post`, `title: <your title>`, `date: <publication date>`, where
+Just create a new `.markdown` file in the style of the existing files under [`_posts`](https://github.com/ucl-dark/blog.ucldark.com/tree/master/_posts). Your post should be written in standard markdown in this file. Make sure that `layout: post`, `title: <your title>`, `date: <publication date>`, where
+
 	- The name of your `.markdown` file should be in the format `YYYY-MM-DD-<short_name>.markdown`, where the `<short_name>` should be all lowercase and use `_` for spaces.
 	- `<publication date>` should be of the form `YYYY-MM-DD 8:00:00 +0000` format. Note that the time component does not matter, so as a standard, we will default to `8:00:00 +0000`.
 	- `title` should make use of standard title capitalization style (e.g. following APA standards). This means capitalizing all words except for standard conjunctions, prepositions under 4 letters, and proper nouns that take on lowercase by definition. This site will help you automatically follow this convention: [https://capitalizemytitle.com/](https://capitalizemytitle.com/).
@@ -10,6 +11,7 @@ It's really easy! Just create a new `.markdown` file in the style of the existin
 ## How do I add images and videos to my post?
 
 If your post has static assets like images or video, do the following:
+
 - Create a new folder under (`assets/post_assets`)[https://github.com/ucl-dark/blog.ucldark.com/tree/master/assets/post_assets] with the same name as the `<short_name>` component of your post `.markdown`, i.e. without the time stamp part. Your post assets like images and videos will go in here.
 - Link in images the same way you normally would in markdown: `![<placeholder image description>](/assets/post_assets/<short_name>/<your_image_name>.png)`.
 - Link in videos as follows (but ideally make the video file < 10 MB):
